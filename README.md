@@ -1,31 +1,47 @@
+# MySQL로 배우는 데이터베이스 개론과 실습
+
 ## 2023년 여름방학 DB스터디
 
-✅ 기간: 6월 22일 ~ 8월 중순~말 사이
+스터디 책: [MySQL로 배우는 데이터베이스 개론과 실습](https://product.kyobobook.co.kr/detail/S000001743733)
 
-✅ 인원수: 6명
+## ✅ 기간: 2023.06.22(목) ~ 2023.08.09(목) / 총 8주차
 
-✅ 활동일: 매주 목요일 10시
+## ✅ 활동방식: 
 
-✅ 활동시간: 2시간
+- 매주 공부한 내용을 정리하여 PR로 업로드합니다.
+- 발표자는 발표자에게 궁금한 내용, 중요한 내용, 또는 부족하다고 생각한 내용을 issue로 남깁니다.
+- 발표가 끝나고, 스터디원이 함께 회고를 진행합니다.
 
-✅ 스터디 책: [MySQL로 배우는 데이터베이스 개론과 실습](https://product.kyobobook.co.kr/detail/S000001743733)
+## ✅ 주차별 학습 내용
 
-✅ 활동방식: 
+### 1주차(2023.06.22~2023.06.28)
+- Chapter 01 데이터베이스 시스템
 
-1. 매주 활동시간에 정해진 분량의 책을 읽고, 중요한 부분을 표시한 후 팀원들끼리 공유하면서 정리본 작성
-2. 매주 활동시간 전에 정해진 분량을 미리 읽어온 후, 팀원끼리 돌아가면서 정리본을 발표하면서 공유
+### 2주차(2023.06.22~2023.06.28)
+- Chapter 02 관계 데이터 모델
 
-위 2가지 방식이 아니더라도, 팀원들과 상의해서 정할 생각입니다!
+### 3주차(2023.06.29~2023.07.05)
+-  Chapter 03 SQL 기초
+- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
 
-- 디스코드로 활동
+### 4주차(2023.07.06~2023.07.12)
+- Chapter 04 SQL 고급
+- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
 
-✅ 활동규칙:
+### 5주차(2023.07.13~2023.07.19)
+- Chapter 06 데이터 모델링
+- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
 
-원활한 활동을 위해 3아웃제를 진행
+### 6주차(2023.07.20~2023.07.26)
+- Chapter 07 정규화
+- [프로그래머스 SQL 문제-level1](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=1)
 
-1out: 
+### 7주차(2023.07.27~2023.08.02)
+- Chapter 08 트랜잭션, 동시성 제어, 회복
+- [프로그래머스 SQL 문제-level2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=2)
 
-- 예고없이 활동에 미참여(활동에 미참여하시더라도 이후의 활동을 위해 주어진 분량의 정리본을 올려주셔야합니다.)
-- 불성실한 참여(소수로 진행되기 때문에, 대충 참여하시는 분이 있다면 분위기가 안 좋아질 것 방지하고자 합니다!)
+### 8주차(2023.08.03~2023.08.09)
+- Chapter 09 데이터베이스 보안과 관리
+- [프로그래머스 SQL 문제-level2](https://school.programmers.co.kr/learn/challenges?order=recent&languages=mysql&page=1&levels=2)
 
-
+<!-- ### 9주차(2023.08.10~2023.08.16) -->
