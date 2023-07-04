@@ -21,15 +21,14 @@
 - Chapter 02 관계 데이터 모델
 
 ### 3주차(2023.07.06~2023.07.12)
-> 3주차부터 실습도 함께 진행
-
-**관련 사이트**
-[SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
-[HackerRank](https://www.hackerrank.com/domains/sql?badge_type=sql)
-
-
 -  Chapter 03 SQL 기초
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+
+> 3주차부터 실습도 함께 진행
+#### 관련 사이트
+✔️[SQL 고득점 Kit](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+✔️[HackerRank](https://www.hackerrank.com/domains/sql?badge_type=sql)
+
 
 ### 4주차(2023.07.13~2023.07.19)
 - Chapter 04 SQL 고급
