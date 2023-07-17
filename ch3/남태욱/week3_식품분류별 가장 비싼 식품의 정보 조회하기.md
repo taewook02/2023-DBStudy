@@ -49,6 +49,7 @@ SQL을 실행하면 다음과 같이 출력되어야 합니다.
 ---
 ## 문제풀이
 ```mysql
+/* 틀린 풀이 */
 SELECT CATEGORY, MAX(PRICE) AS MAX_PRICE, PRODUCT_NAME
 FROM FOOD_PRODUCT
 WHERE CATEGORY IN ('과자', '국', '김치', '식용유')
