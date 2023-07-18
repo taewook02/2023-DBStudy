@@ -62,6 +62,11 @@ ORDER BY MAX_PRICE DESC
 1. MAX(PRICE)를 바로 SELECT 할 경우 가장 높은 가격을 뽑기만 하고, 같은 행에 있는 값들은 관련이 없는 값이 SELECT 된다.
 2. 때문에 가장 큰 값을 식별할 수 있는 값으로 서브 쿼리를 통해 가져오고 그 값과 그 값에 해당하는 행의  CATEGORY, PRODUCT_NAME을 가져오도록 한다.
 
+- 아래 사진에서 확인할 수 있듯 전혀 다른 PRODUCT_ID를 가지게 된다는게 문제이다.
+  
+<img width="738" alt="스크린샷 2023-07-18 오후 1 09 27" src="https://github.com/Hoya324/2023-DBStudy/assets/96857599/1e82748e-6a06-44e8-8472-dd248b9d278f">
+
+<img width="728" alt="스크린샷 2023-07-18 오후 1 10 24" src="https://github.com/Hoya324/2023-DBStudy/assets/96857599/57578174-9009-4e0c-8c69-000d9af29a49">
 
 ```sql
 /* 정답은 맞지만 잘못된 풀이 */
@@ -77,6 +82,8 @@ ORDER BY MAX_PRICE DESC
 - 잘못된 이유
 1. 가장 높은 가격의 PRICE를 식별 값으로 사용했을 때 만약 다른 CATEGORY의 값 중 같은 값이 있다면 문제가 생길 수 있다.
 2. 이를 방지하기 위해 서브쿼리에서 CATEGORY를 함께 SELECT 해주었다.
+
+<img width="736" alt="스크린샷 2023-07-18 오후 1 12 04" src="https://github.com/Hoya324/2023-DBStudy/assets/96857599/e02a5aa7-9a76-4fa0-8de8-862d866b2db6">
 
 ```sql
 /* 옳은 풀이 */
