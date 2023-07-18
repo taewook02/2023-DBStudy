@@ -58,14 +58,32 @@ GROUP BY CATEGORY
 ORDER BY MAX_PRICE DESC
 ```
 
-- 틀린 이유: MAX 조회하면 해당 컬럼에 대한 값만 나올뿐 행 전체가 나오지 않는다. 그래서 서브 쿼리로 걸러주고 조회해야한다.
+- 틀린 이유: 
+1. MAX(PRICE)를 바로 SELECT 할 경우 가장 높은 가격을 뽑기만 하고, 같은 행에 있는 값들은 관련이 없는 값이 SELECT 된다.
+2. 때문에 가장 큰 값을 식별할 수 있는 값으로 서브 쿼리를 통해 가져오고 그 값과 그 값에 해당하는 행의  CATEGORY, PRODUCT_NAME을 가져오도록 한다.
+
+
+```sql
+/* 정답은 맞지만 잘못된 풀이 */
+SELECT CATEGORY, PRICE AS MAX_PRICE, PRODUCT_NAME
+FROM FOOD_PRODUCT
+WHERE CATEGORY IN ('과자', '국', '김치', '식용유') AND
+    PRICE IN (SELECT MAX(PRICE)
+    FROM FOOD_PRODUCT
+    GROUP BY CATEGORY)
+ORDER BY MAX_PRICE DESC
+```
+
+- 잘못된 이유
+1. 가장 높은 가격의 PRICE를 식별 값으로 사용했을 때 만약 다른 CATEGORY의 값 중 같은 값이 있다면 문제가 생길 수 있다.
+2. 이를 방지하기 위해 서브쿼리에서 CATEGORY를 함께 SELECT 해주었다.
 
 ```sql
 /* 옳은 풀이 */
 SELECT CATEGORY, PRICE AS MAX_PRICE, PRODUCT_NAME
 FROM FOOD_PRODUCT
 WHERE CATEGORY IN ('과자', '국', '김치', '식용유') AND
-    PRICE IN (SELECT MAX(PRICE)
+    (CATEGORY, PRICE) IN (SELECT CATEGORY, MAX(PRICE)
     FROM FOOD_PRODUCT
     GROUP BY CATEGORY)
 ORDER BY MAX_PRICE DESC
