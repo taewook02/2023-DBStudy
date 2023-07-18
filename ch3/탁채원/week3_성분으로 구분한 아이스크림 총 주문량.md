@@ -1,8 +1,6 @@
-# [성분으로 구분한 아이스크림 총 주문량](https://school.programmers.co.kr/learn/courses/30/lessons/133026)
+# 성분으로 구분한 아이스크림 총 주문량
 
-**MySQL**
-
-### **문제 설명**
+## **문제 설명**
 
 다음은 아이스크림 가게의 상반기 주문 정보를 담은 `FIRST_HALF` 테이블과 아이스크림 성분에 대한 정보를 담은 `ICECREAM_INFO` 테이블입니다. `FIRST_HALF` 테이블 구조는 다음과 같으며, `SHIPMENT_ID`, `FLAVOR`, `TOTAL_ORDER` 는 각각 아이스크림 공장에서 아이스크림 가게까지의 출하 번호, 아이스크림 맛, 상반기 아이스크림 총주문량을 나타냅니다. `FIRST_HALF` 테이블의 기본 키는 `FLAVOR`입니다.
 
@@ -21,13 +19,13 @@
 
 ---
 
-### 문제
+## 문제
 
 상반기 동안 각 아이스크림 성분 타입과 성분 타입에 대한 아이스크림의 총주문량을 총주문량이 작은 순서대로 조회하는 SQL 문을 작성해주세요. 이때 총주문량을 나타내는 컬럼명은 TOTAL_ORDER로 지정해주세요.
 
 ---
 
-### 예시
+## 예시
 
 예를 들어 `FIRST_HALF` 테이블이 다음과 같고
 
@@ -71,12 +69,13 @@
 | fruit_based | 19550 |
 
 ---
-## 문제풀이
-```SQL
+
+## 코드
+
+```sql
 SELECT INGREDIENT_TYPE, SUM(FIRST_HALF.TOTAL_ORDER) AS TOTAL_ORDER
-FROM ICECREAM_INFO,FIRST_HALF
+FROM ICECREAM_INFO, FIRST_HALF
 WHERE ICECREAM_INFO.FLAVOR = FIRST_HALF.FLAVOR
 GROUP BY INGREDIENT_TYPE
 ORDER BY TOTAL_ORDER
 ```
-
