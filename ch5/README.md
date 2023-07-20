@@ -4,7 +4,7 @@
 
 **JOIN**
 - [조건에 맞는 도서와 저자 리스트 출력하기](https://school.programmers.co.kr/learn/courses/30/lessons/144854)
--[있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043)
+- [있었는데요 없었습니다](https://school.programmers.co.kr/learn/courses/30/lessons/59043)
 
 **String, Date**
 - [자동차 평균 대여 기간 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/157342)
