@@ -59,5 +59,8 @@ SQL문을 실행하면 다음과 같이 나와야 합니다.
 
 ## 문제풀이
 ```sql
-
+SELECT ins.ANIMAL_ID, ins.NAME
+FROM ANIMAL_INS ins, ANIMAL_OUTS outs
+WHERE ins.ANIMAL_ID = outs.ANIMAL_ID AND ins.DATETIME > outs.DATETIME
+ORDER BY ins.DATETIME;
 ```
