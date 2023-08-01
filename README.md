@@ -4,6 +4,65 @@
 
 스터디 책: [MySQL로 배우는 데이터베이스 개론과 실습](https://product.kyobobook.co.kr/detail/S000001743733)
 
+### ✅ Member
+
+<center>
+<table  width="100%">
+  <tr>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/96857599?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/128007622?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/136984070?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/97429550?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/127813439?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/128283286?s=64&v=4"  width="100px;"  alt=""/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <a href="https://github.com/Hoya324">
+            <div>경호</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/taewook02">
+            <div>태욱</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/qwejiung">
+            <div>지웅</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Erichong7">
+            <div>정우</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/KoSeonJe">
+            <div>선제</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/noweahct">
+            <div>채원</div>
+        </a>
+    </td>
+  </tr>
+</table>
+</center>
+
 ## ✅ 기간: 2023.06.22(목) ~ 2023.08.09(목) / 총 8주차
 
 ## ✅ 활동방식: 
