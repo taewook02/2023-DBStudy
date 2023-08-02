@@ -39,6 +39,10 @@
 
 - ITEM_ID, 이름, 가격, 재고수량( `stockQuantity` )을 가진다.
 
+### 카테고리(Category)
+
+- CATEGORY_ID, 이름을 가진다.
+
 ### 배송(Delivery)
 
 - DELIVERY_ID, 주소(city, street, zipcode)를 가진다.
@@ -50,6 +54,8 @@
 **주문상품과 주문**
 
 **주문상품과 상품**
+
+**상품과 카테고리** -> 다대다 관계입니다!
 
 **주문과 배송**
 
