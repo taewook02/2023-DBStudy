@@ -1,5 +1,5 @@
 # 6주차(2023.07.27~2023.08.02)
-- Chapter 07 정규화
+- Chapter 06 데이터 모델링
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 - ERD 설계 실습
 
