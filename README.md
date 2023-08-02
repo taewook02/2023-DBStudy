@@ -93,19 +93,23 @@
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 5주차(2023.07.20~2023.07.26)
-- Chapter 06 데이터 모델링
+- Chapter 05 데이터베이스 프로그래밍
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 6주차(2023.07.27~2023.08.02)
-- Chapter 07 정규화
-- 마당서점 설계 실습
+- Chapter 06 데이터 모델링
+- ERD 설계 실습
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 7주차(2023.08.03~2023.08.09)
-- Chapter 08 트랜잭션, 동시성 제어, 회복
+- Chapter 07 정규화
+- ERD 설계 실습
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 ### 8주차(2023.08.10~2023.08.16)
-- Chapter 09 데이터베이스 보안과 관리
+- Chapter 08 트랜잭션, 동시성 제어, 회복
 - [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
-<!-- ### 9주차(2023.08.17~2023.08.23) -->
+### 9주차(2023.08.17~2023.08.23)
+- Chapter 09 데이터베이스 보안과 관리
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
