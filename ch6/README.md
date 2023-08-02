@@ -28,12 +28,10 @@
 ### 주문(Orders)
 
 - ORDER_ID, **외래키 2개**, 주문 날짜를 가진다.
-- MEMBER_ID(FK), DELIVERY_ID(FK)
 
 ### 주문상품(OrderItem)
 
 - ORDER_ITEM_ID, **외래키 2개**, 주문 금액( `orderPrice` ), 주문 수량( `count` ) 을 가진다.
-- ORDER_ID(FK), ITEM_ID(FK)
 
 ### 상품(Item)
 
