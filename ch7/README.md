@@ -1,11 +1,10 @@
-# 6주차(2023.07.27~2023.08.02)
-- Chapter 06 데이터 모델링
-- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
+# 7주차(2023.08.03~2023.08.09)
+- Chapter 07 정규화
 - ERD 설계 실습
+- [프로그래머스 SQL 문제](https://school.programmers.co.kr/learn/challenges?tab=sql_practice_kit)
 
 **JOIN**
-- [상품 별 오프라인 매출 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/131533)
-
+- [없어진 기록 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/59042)
 
 ### 실습 과제(7주차까지)
 - 책의 실습을 꼭 직접 해보고 정리해보시길 바랍니다.
@@ -14,8 +13,8 @@
   - 제출 양식
   - 자신의 7주차 폴더에 ERD_practice_자신의이름.md 파일에 ER 모델 요구사항과 자신이 구현한 ER 모델 이미지를 작성해주세요.
     - 예시) ch7/나경호/ERD_practice_나경호.md  
-  - 구현한 ERD의 쿼리를 추출하여 ERD_query_자신의이름.md 파일에 작성해주세요.
-    - 예시) ch7/나경호/ERD_query_나경호.md  
+  - 구현한 ERD의 쿼리를 추출하여 ERD_query_자신의이름.sql 파일에 작성해주세요.
+    - 예시) ch7/나경호/ERD_query_나경호.sql
 
 ### 파일 구성 예시(아래의 폼으로 작성해주세요.)
 
